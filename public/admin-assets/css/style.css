@@ -1,0 +1,178 @@
+html,body {
+	color:#fff;
+	background: url('../img/bg.png');
+}
+
+a{
+	color:#333;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.main-row {
+	background: rgba(255,255,255,0.1);
+	padding:25px 0;
+	min-height: 900px;
+}
+
+.left-sidebar {
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	padding: 0;
+	padding-right: 15px;
+}
+
+.main-content {
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	padding-top:0;
+	padding-bottom: 0;
+	border-left:2px solid #ccc; 
+}
+
+ul.sidebar-menu {
+	padding:0;
+	margin: 0;
+}
+
+ul.sidebar-menu li{
+	list-style-type: none;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+
+ul.sidebar-menu li a{
+	color:#fff;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+ul.sidebar-menu li:hover, ul.sidebar-menu li.active{
+	background: #fff;
+}
+
+ul.sidebar-menu li:hover a,ul.sidebar-menu li.active a {
+	color:#555;
+}
+
+.collapse-btn {
+	display: inline-block;
+	margin: 15px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.logo {
+	max-width: 100px;
+	margin: 15px;
+	margin-top:0;
+}
+
+.current-content {
+	background: rgba(255,255,255,0.1);
+	margin: 15px;
+	margin-top:0;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.current-content:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 950px){
+	.main-row {
+		margin:25px 0;
+	}
+	.left-sidebar {
+		margin-bottom: 25px;
+		padding-right: 0;
+	}
+
+	.left-sidebar ul {
+		background: rgba(0,0,0,0.1);
+	}
+}
+
+@media (min-width: 768px){
+	.collapse {
+		display: block;
+	}
+}
+
+.btn-edit {
+	background: #fff;
+	border: 0;
+	color: #000 !important;
+	border-radius: 0;
+}
+
+.btn-delete {
+	color: red !important;
+}
+
+.form-control {
+	border:2px solid #fff !important;
+	background: rgba(0,0,0,0.2);
+	color:#fff;
+	-webkit-box-shadow: initial !important;
+	box-shadow: initial !important;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+h3.heading-text {
+	margin: 0;
+}
+
+.dropdown-menu>li>a {
+    text-align: left;
+}
+
+.dropdown-menu {
+	min-width: initial;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.login-row {
+    background: rgba(0,0,0,0.2);
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.mytable {
+	background: rgba(0,0,0,0.1);
+	color:#fff;
+	margin-top:25px;
+}
+
+.mytable a {
+	color:#fff;
+}
+
+.mytable tr:first-child {
+	background: #fff;
+	color:#000;
+}
+
+.action {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+.custom-danger {
+    background: rgba(0,0,0,0.2);
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+}
